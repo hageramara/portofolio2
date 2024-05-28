@@ -1,0 +1,726 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-link {
+    Font-size: 16px;
+    Font-weight: 600;
+}
+
+.navbar-brand {
+    Font-size: 28px;
+    Font-weight: 600;
+}
+
+.navbar {
+    background-color: #000000E6;
+}
+
+.header {
+
+    background-image: url(../images/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    font-size: 72px;
+    color: #fff;
+    margin: 15px 0px;
+    font-weight: 700;
+}
+
+.overlay {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color: #fff;
+}
+
+@keyframes typing {
+    1% {
+        content: "|"
+    }
+
+    2% {
+        content: "D|"
+    }
+
+    3% {
+        content: "De|"
+    }
+
+    4% {
+        content: "Dev|"
+    }
+
+    5% {
+        content: "Deve|"
+    }
+
+    6% {
+        content: "Devel|"
+    }
+
+    7% {
+        content: "Develo|"
+    }
+
+    8% {
+        content: "Develop|"
+    }
+
+    9% {
+        content: "Develope|"
+    }
+
+    10% {
+        content: "Developer|"
+    }
+
+    11% {
+        content: "Developer|"
+    }
+
+    12% {
+        content: "Developer|"
+    }
+
+    13% {
+        content: "Developer|"
+    }
+
+    14% {
+        content: "Developer|"
+    }
+
+    15% {
+        content: "Developer|"
+    }
+
+    16% {
+        content: "Develope|"
+    }
+
+    17% {
+        content: "Develop|"
+    }
+
+    18% {
+        content: "Develo|"
+    }
+
+    19% {
+        content: "Devel|"
+    }
+
+    20% {
+        content: "Deve|"
+    }
+
+    21% {
+        content: "Dev|"
+    }
+
+    22% {
+        content: "De|"
+    }
+
+    23% {
+        content: "Des|"
+    }
+
+    24% {
+        content: "Desi|"
+    }
+
+    25% {
+        content: "Desig|"
+    }
+
+    26% {
+        content: "Design|"
+    }
+
+    27% {
+        content: "Designe|"
+    }
+
+    28% {
+        content: "Designer|"
+    }
+
+    29% {
+        content: "Designer|"
+    }
+
+    30% {
+        content: "Designer|"
+    }
+
+    31% {
+        content: "Designer|"
+    }
+
+    32% {
+        content: "Designer|"
+    }
+
+    33% {
+        content: "Designer|"
+    }
+
+    34% {
+        content: "Designe|"
+    }
+
+    35% {
+        content: "Design|"
+    }
+
+    36% {
+        content: "Desig|"
+    }
+
+    37% {
+        content: "Desi|"
+    }
+
+    38% {
+        content: "Des|"
+    }
+
+    39% {
+        content: "De|"
+    }
+
+    40% {
+        content: "D|"
+    }
+
+    41% {
+        content: "|"
+    }
+
+    42% {
+        content: "F|"
+    }
+
+    43% {
+        content: "Fr|"
+    }
+
+    44% {
+        content: "Fre|"
+    }
+
+    45% {
+        content: "Free|"
+    }
+
+    46% {
+        content: "Freel|"
+    }
+
+    47% {
+        content: "Freela|"
+    }
+
+    48% {
+        content: "Freelan|"
+    }
+
+    49% {
+        content: "Freelanc|"
+    }
+
+    50% {
+        content: "Freelance|"
+    }
+
+    51% {
+        content: "Freelancer|"
+    }
+
+    52% {
+        content: "Freelancer|"
+    }
+
+    53% {
+        content: "Freelancer|"
+    }
+
+    54% {
+        content: "Freelancer|"
+    }
+
+    55% {
+        content: "Freelancer|"
+    }
+
+    56% {
+        content: "Freelancer|"
+    }
+
+    57% {
+        content: "Freelance|"
+    }
+
+    58% {
+        content: "Freelanc|"
+    }
+
+    59% {
+        content: "Freelan|"
+    }
+
+    60% {
+        content: "Freela|"
+    }
+
+    61% {
+        content: "Freel|"
+    }
+
+    62% {
+        content: "Free|"
+    }
+
+    63% {
+        content: "Fre|"
+    }
+
+    64% {
+        content: "Fr|"
+    }
+
+    65% {
+        content: "F|"
+    }
+
+    66% {
+        content: "|"
+    }
+
+    67% {
+        content: "P|"
+    }
+
+    68% {
+        content: "Ph|"
+    }
+
+    69% {
+        content: "Pho|"
+    }
+
+    70% {
+        content: "Phot|"
+    }
+
+    71% {
+        content: "Photo|"
+    }
+
+    72% {
+        content: "Photog|"
+    }
+
+    73% {
+        content: "Photogr|"
+    }
+
+    74% {
+        content: "Photogra|"
+    }
+
+    75% {
+        content: "Photograp|"
+    }
+
+    76% {
+        content: "Photograph|"
+    }
+
+    77% {
+        content: "Photographe|"
+    }
+
+    78% {
+        content: "Photographer|"
+    }
+
+    79% {
+        content: "Photographer|"
+    }
+
+    80% {
+        content: "Photographer|"
+    }
+
+    81% {
+        content: "Photographer|"
+    }
+
+    82% {
+        content: "Photographer|"
+    }
+
+    83% {
+        content: "Photographer|"
+    }
+
+    84% {
+        content: "Photographe|"
+    }
+
+    85% {
+        content: "Photograph|"
+    }
+
+    86% {
+        content: "Photograp|"
+    }
+
+    87% {
+        content: "Photogra|"
+    }
+
+    88% {
+        content: "Photogr|"
+    }
+
+    89% {
+        content: "Photog|"
+    }
+
+    90% {
+        content: "Photo|"
+    }
+
+    92% {
+        content: "Phot|"
+    }
+
+    94% {
+        content: "Pho|"
+    }
+
+    96% {
+        content: "Ph|"
+    }
+
+    98% {
+        content: "P|"
+    }
+
+    100% {
+        content: "|"
+    }
+}
+
+.brdr {
+    background-color: #0078ff;
+    height: 3px;
+    width: 120px;
+}
+
+#about .row p {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 20px;
+    Font-weight: 300;
+    color: #4E4E4E;
+}
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+.information ul li {
+    list-style: none;
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 16px;
+    Font-weight: 400;
+    color: #4E4E4E;
+
+}
+
+.col-md-6 h4 {
+    color: #1e1e1e;
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 17.6px;
+    Font-weight: 600;
+
+}
+
+.title {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 32px;
+    Font-weight: 500;
+}
+
+.brdr1 {
+    background-color: #0078ff;
+    height: 5px;
+    width: 40px;
+
+}
+
+.service-box {
+    border-radius: 10px;
+}
+
+.row h3 {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 48px;
+    Font-weight: 700;
+}
+
+.row p {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 16px;
+    Font-weight: 400;
+    color: #4E4E4E;
+}
+
+.service-icon i {
+    font-size: 2rem;
+    border: solid 10px #0078ff;
+    padding: 35px 35px;
+
+}
+
+.h4 {
+    font-family: system-ui, -apple-system, "Segoe UI", ;
+    Font-size: 22.4px;
+    Font-weight: 500;
+}
+
+#information {
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.layer {
+    background-color:#0077ffa5 ;
+
+
+}
+
+.service-icon2 i {
+    font-size: 2rem;
+    border: solid 10px #fff;
+    padding: 15px 15px;
+    color: #fff;
+
+}
+
+.service-txt2 span {
+    color: #fff;
+    Font-size: 32px;
+    Font-weight: 400;
+}
+
+.service-txt2 p {
+    color: #fff;
+    Font-size: 16px;
+    Font-weight: 400;
+}
+
+.work-txt1 h5 {
+    color: #1e1e1e;
+    Font-size: 19.2px;
+    Font-weight: 500;
+}
+
+.work-txt1 span {
+    color: #0078ff;
+    Font-size: 12.8px;
+    Font-weight: 400;
+}
+
+.work-txt1 p {
+    color: #4e4e4e;
+    Font-size: 12.8px;
+    Font-weight: 400;
+}
+
+.work-box {
+    overflow: hidden !important;
+}
+
+.work-icon i {
+    border: solid 3px #0078ff;
+    color: #0078ff;
+    Font-size: 25px;
+    Font-weight: 400;
+}
+
+.work-box img {
+    transition: transform 1s ease-in-out;
+}
+
+.work-box img:hover {
+    transform: scale(1.2);
+}
+
+.work-txt1 {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.work-box {
+    position: relative;
+}
+
+#testimonial {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.layout {
+    background-color: #0077ffa5;
+}
+.content3 h3 
+{
+    Font-size: 22.4px;
+    Font-weight: 600;
+    color: #fff;
+}
+.content3 p
+{
+    Font-size: 20px;
+    Font-weight: 300;
+    color: #fff;
+}
+.carousel-indicators [data-bs-target] 
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.card-footer img
+{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.layout2
+{
+    background-color: #0078ff;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    Font-size: 11.2px;
+    Font-weight: 500;
+}
+#contact .container 
+{
+    background-color: #fff;
+
+}
+#contact {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.layout-end {
+    background-color: #0077ffa5;
+}
+.brdr2 {
+    background-color: #0078ff;
+    height: 5px;
+    width: 100px;
+
+}
+#contact .row h3 
+{
+    Font-size: 32px;
+    Font-weight: 500;   
+}
+.btn5 button {
+    background-color: #0078ff;
+    border: solid rgb(5, 5, 0.5);
+    padding: 0px 25px;
+    height: 40px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 38px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    Font-size: 15px;
+    margin-top: 15px;
+}
+.footer-text
+{
+    background-color: #0062d3;
+}
+#contact p 
+{
+    Font-size: 20px;
+    Font-weight: 300;  
+}
+#contact .hero1 p 
+{
+    Font-size: 16px;
+    Font-weight: 400;  
+}
+#contact .hero1 i 
+{
+    color: #0078ff;
+}
+
+#contact .space3 i 
+{
+    font-size: 20px;
+    border: 4px solid #0078ff;
+    border-radius: 50%;
+}
+.footer-text p
+{
+    Font-size: 16px;
+    Font-weight: 400; 
+    color: #ffffff;
+}
+.footer-text span
+{
+    Font-size: 16px;
+    Font-weight: 700; 
+    color: #ffffff;
+}
+
+
+
+
+ 
